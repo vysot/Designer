@@ -73,7 +73,7 @@ a {
     align-items: center;
     font-family: var(--font-Inter);
     color: var(--white);
-    margin:50px 0 100px 0;
+    margin: 50px 0 100px 0;
 }
 
 .avatar>div:first-child {
@@ -325,7 +325,7 @@ a {
 
 .works-photo {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
 .works-photo-item {
@@ -335,7 +335,7 @@ a {
 }
 
 .works-photo-item img {
-    width: 370px;
+    width: 100%;
     margin-top: 20px;
     border-radius: 5px;
     border: 2px solid var(--black);
@@ -375,13 +375,12 @@ a {
 .comments-block {
     display: flex;
     justify-content: space-between;
-    /* flex-grow: 1; */
 }
 
 .comments-block-item {
     background-color: var(--white);
     border-radius: 8px;
-    width: 25%;
+    width: calc(30% - 20px - 20px);
     padding: 40px 20px;
     margin-bottom: 20px;
 }
